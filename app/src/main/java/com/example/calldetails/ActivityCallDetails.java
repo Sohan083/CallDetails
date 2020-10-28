@@ -40,7 +40,9 @@ public class ActivityCallDetails extends AppCompatActivity {
             Manifest.permission.CAMERA,
             Manifest.permission.READ_CALL_LOG,
             Manifest.permission.WRITE_CALL_LOG,
-            Manifest.permission.INTERNET
+            Manifest.permission.INTERNET,
+            Manifest.permission.READ_PHONE_STATE,
+            Manifest.permission.PROCESS_OUTGOING_CALLS
     };
 
     @Override
